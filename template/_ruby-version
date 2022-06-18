@@ -1,0 +1,9 @@
+2.7.4
+# New versions of react-native include annoying Ruby stuff that forces use of old rubies. Obliterate.
+if [ -f Gemfile ]; then
+  rm -f Gemfile* .ruby*
+fi
+
+# Now run our initial dependency install
+yarn
+npm_config_yes=true npx pod-install

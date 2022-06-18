@@ -1,0 +1,8 @@
+{
+  "name": "react-native-template-noliva",
+  "version": "0.0.1",
+  "description": "React Native Template whit TS, Redux Toolkit, Navigation.",
+  "repository": "git@github.com:NicolasOliva98/react-native-template-noliva.git",
+  "author": "Nicolás Oliva <oliva.nicolas30@gmail.com>",
+  "license": "MIT"
+}
